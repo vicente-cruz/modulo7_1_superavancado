@@ -1,0 +1,6 @@
+# Aula 06
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /modulo7_1_superavancado/aula02_09_mvc/index.php/$1 [L]
+#RewriteRule ^(.*)$ /modulo7_1_superavancado/aula02_09_mvc/index.php?q=$1 [QSA,L]

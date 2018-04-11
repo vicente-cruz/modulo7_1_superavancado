@@ -1,0 +1,10 @@
+body {
+    margin:auto;
+}
+
+.borda {
+    width:400px;
+    height:200px;
+    border:1px solid #FF0000;
+    padding:20px;
+}
